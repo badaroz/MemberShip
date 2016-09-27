@@ -1,0 +1,12 @@
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.Data\bin\Debug\MemberShip.Infra.Data.dll.config
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.Data\bin\Debug\MemberShip.Infra.Data.dll
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.Data\bin\Debug\MemberShip.Infra.Data.pdb
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.Data\bin\Debug\MemberShip.Domain.dll
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.Data\bin\Debug\MemberShip.Domain.pdb
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.Data\obj\Debug\MemberShip.Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.Data\obj\Debug\MemberShip.Infra.Data.dll
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.Data\obj\Debug\MemberShip.Infra.Data.pdb

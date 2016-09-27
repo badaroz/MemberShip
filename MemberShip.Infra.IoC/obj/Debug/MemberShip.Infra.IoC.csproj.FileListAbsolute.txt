@@ -1,0 +1,13 @@
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.IoC\bin\Debug\MemberShip.Infra.IoC.dll
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.IoC\bin\Debug\MemberShip.Infra.IoC.pdb
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.IoC\bin\Debug\MemberShip.Domain.dll
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.IoC\bin\Debug\MemberShip.Infra.Data.dll
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.IoC\bin\Debug\SimpleInjector.dll
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.IoC\bin\Debug\EntityFramework.dll
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.IoC\bin\Debug\MemberShip.Domain.pdb
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.IoC\bin\Debug\MemberShip.Infra.Data.pdb
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.IoC\bin\Debug\SimpleInjector.xml
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.IoC\bin\Debug\EntityFramework.xml
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.IoC\obj\Debug\MemberShip.Infra.IoC.csprojResolveAssemblyReference.cache
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.IoC\obj\Debug\MemberShip.Infra.IoC.dll
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Infra.IoC\obj\Debug\MemberShip.Infra.IoC.pdb

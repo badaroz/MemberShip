@@ -1,0 +1,4 @@
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Domain\bin\Debug\MemberShip.Domain.dll
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Domain\bin\Debug\MemberShip.Domain.pdb
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Domain\obj\Debug\MemberShip.Domain.dll
+C:\Users\LucasB\Documents\Visual Studio 2015\Projects\MemberShip\MemberShip.Domain\obj\Debug\MemberShip.Domain.pdb
