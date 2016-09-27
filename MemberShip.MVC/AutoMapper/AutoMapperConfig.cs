@@ -4,7 +4,7 @@ using MemberShip.MVC.Models;
 
 namespace MemberShip.MVC.AutoMapper
 {
-    public class AutoMapperConfig
+    public class AutoMapperConfig<TClass,TViewClass> where TClass : class where TViewClass : class
     {
         public static void RegisterMappings()
         {
