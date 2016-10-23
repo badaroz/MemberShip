@@ -25,13 +25,8 @@ namespace MemberShip.Domain.Entities
 
         public Familia Pertence { get; set; }
         public int? FamiliaId { get; set; }
-
-        public enum TipoEntrada
-        {
-            Aclamacao,
-            Batismo
-        }
-
+        
+        public int TipoEntrada { get; set; }       
        // public IEnumerable<Endereco> Endereco { get; set; }
     }
 }

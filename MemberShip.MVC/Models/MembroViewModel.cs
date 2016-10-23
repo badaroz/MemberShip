@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace MemberShip.MVC.Models
 {
@@ -23,6 +24,10 @@ namespace MemberShip.MVC.Models
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
         [DataType(DataType.Date)]
         public DateTime DataEntradada { get; set; }
-                
+        
+        public int TipoEntrada { get; set; }  
+        
+        public List<SelectListItem> Entrada { get; set; }    
+
     }
 }

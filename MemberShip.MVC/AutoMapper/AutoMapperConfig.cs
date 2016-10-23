@@ -10,8 +10,8 @@ namespace MemberShip.MVC.AutoMapper
         {
             Mapper.Initialize(x =>
             {
-                x.CreateMap<Membro, MembroViewModel>();
-                x.CreateMap<MembroViewModel, Membro>();
+                x.CreateMap<TClass, TViewClass>();
+                x.CreateMap<TViewClass, TClass>();
 
             });
         }
