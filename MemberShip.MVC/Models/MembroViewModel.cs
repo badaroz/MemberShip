@@ -1,11 +1,8 @@
-﻿using AutoMapper;
-using MemberShip.Domain.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
+using static MemberShip.Domain.Enums.EnumsMembros;
 
 namespace MemberShip.MVC.Models
 {
@@ -13,7 +10,7 @@ namespace MemberShip.MVC.Models
     {
         [Key]
         public int MembroId { get; set; }
-
+        [Required(ErrorMessage = "Campo obrigatorio")]
         public string Nome { get; set; }
 
         [Display(Name = "Nascimento")]
@@ -25,9 +22,12 @@ namespace MemberShip.MVC.Models
         [DataType(DataType.Date)]
         public DateTime DataEntradada { get; set; }
         
-        public int TipoEntrada { get; set; }  
+        public TipoEntradaEnum TipoEntrada { get; set; }
+
+        public SexoEnum Sexo { get; set; }
         
-        public List<SelectListItem> Entrada { get; set; }    
+       // public List<SelectListItem> Entrada { get; set; }
+        //public List<SelectListItem> Sexos { get; set; }
 
     }
 }

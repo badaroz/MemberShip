@@ -4,9 +4,7 @@ using MemberShip.Domain.Interfaces.Services;
 using MemberShip.MVC.Models;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Web.Mvc;
-using static MemberShip.Domain.Enums.Enums;
 
 namespace MemberShip.MVC.Controllers
 {
@@ -35,7 +33,7 @@ namespace MemberShip.MVC.Controllers
         // GET: Membro/Create
         public ActionResult Create()
         {   var model = new MembroViewModel() { DataNascimento = DateTime.Now, DataEntradada = DateTime.Now };
-            CarregaSelecao(model);
+            //CarregaSelecao(model);
             return View(model);
         }
 
@@ -129,14 +127,19 @@ namespace MemberShip.MVC.Controllers
             return config.CreateMapper().Map<Membro, MembroViewModel>(obj);
         }
 
-        internal void CarregaSelecao(MembroViewModel model)
-        {
+        //internal void CarregaSelecao(MembroViewModel model)
+        //{
 
-            model.Entrada = Enum.GetValues(typeof(TipoEntrada)).Cast<TipoEntrada>().Select(v => new SelectListItem
-            {
-                Text = v.ToString(),
-                Value = ((int)v).ToString()
-            }).ToList();
-        }
+        //    model.Entrada = Enum.GetValues(typeof(TipoEntrada)).Cast<TipoEntrada>().Select(v => new SelectListItem
+        //    {
+        //        Text = v.ToString(),
+        //        Value = ((int)v).ToString()
+        //    }).ToList();
+        //    //model.Sexos = Enum.GetValues(typeof(Sexo)).Cast<Sexo>().Select(v => new SelectListItem
+        //    //{
+        //    //    Text = v.ToString(),
+        //    //    Value = v.ToString()
+        //    //}).ToList();
+        //}
     }
 }

@@ -18,15 +18,14 @@ namespace MemberShip.Domain.Entities
 
         public DateTime DataEntradada { get; set; }
 
-        public enum Sexo {
-            Masculino, 
-            Feminino
-        }
+        public string Sexo { get; set; }
+        
 
         public Familia Pertence { get; set; }
         public int? FamiliaId { get; set; }
         
-        public int TipoEntrada { get; set; }       
-       // public IEnumerable<Endereco> Endereco { get; set; }
+        public int TipoEntrada { get; set; }
+        public IEnumerable<Contato> contatos { get; set; }
+        // public IEnumerable<Endereco> Endereco { get; set; }
     }
 }

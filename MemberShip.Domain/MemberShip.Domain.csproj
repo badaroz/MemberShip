@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Contato.cs" />
     <Compile Include="Entities\Endereco.cs" />
     <Compile Include="Entities\Familia.cs" />
     <Compile Include="Entities\Membro.cs" />

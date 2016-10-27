@@ -1,10 +1,10 @@
 ﻿@model MemberShip.MVC.Models.MembroViewModel
 
 @{
-    ViewBag.Title = "Create";
+    ViewBag.Title = "Inserir Membro";
 }
 
-<h2>Create</h2>
+<h2>Inserir Membro</h2>
 
 
 @using (Html.BeginForm()) 
@@ -12,8 +12,7 @@
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        <h4>MembroViewModel</h4>
-        <hr />
+          <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
                 <div class="form-group">
             @Html.LabelFor(model => model.Nome, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -41,14 +40,22 @@
         <div class="form-group">
             @Html.LabelFor(model => model.TipoEntrada, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.DropDownListFor(model => model.TipoEntrada, Model.Entrada, new { @class = "form-control" } )
+                @Html.EnumDropDownListFor(model => model.TipoEntrada, new { @class = "form-control" } )
                 @Html.ValidationMessageFor(model => model.TipoEntrada, "", new { @class = "text-danger" })
             </div>
         </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Sexo, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EnumDropDownListFor(model => model.Sexo, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Sexo, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
 
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </div>
     </div>

@@ -22,6 +22,7 @@ namespace MemberShip.Infra.Data.Context
         public DbSet<Familia> Familias { get; set; }
 
         public DbSet<Endereco> Enderecos { get; set; }
+        public DbSet<Contato> Contatos { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
